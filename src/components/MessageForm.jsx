@@ -10,7 +10,7 @@ const MessageForm = (props) => {
 
         const text = value.trim();
 
-        if(text.length() > 0) sendMessage(creds, chatId, { text });
+        if(text.length > 0) sendMessage(creds, chatId, { text });
     }
 
     const handleChange = (event) => {
@@ -20,7 +20,7 @@ const MessageForm = (props) => {
     }
 
     return (
-        <form className="message-from" onSubmit={handleSubmit}>
+        <form className="message-form" onSubmit={handleSubmit}>
             <input
                 className="message-input"
                 placeholder="Send a message..."
