@@ -11,7 +11,7 @@ Chatsy is a web based chat application. Here React is used in frontend and API o
 
 ## Installation
 
-User have to use his own projecID of chatengine in App.js.
+User have to use his own projectID of chatengine in App.js.
 
 Use the npm manager [npmn](https://www.npmjs.com/) to use the Chatsy.
 
